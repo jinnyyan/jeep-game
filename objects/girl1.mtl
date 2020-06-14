@@ -1,0 +1,71 @@
+# MakeHuman exported MTL
+# www.makehuman.org
+
+
+newmtl DefaultSkin
+Kd 0.7323 0.5746 0.4389
+Ks 0.3 0.3 0.3
+d 1
+
+newmtl female01Material
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+d 0
+map_Kd textures\diffuse_black.png
+map_D textures\diffuse_black.png
+
+newmtl Eye_brown
+Kd 1 1 1
+Ks 1 1 1
+d 0
+map_Kd textures\brown_eye.png
+map_D textures\brown_eye.png
+
+newmtl eyebrow001
+Kd 1 1 1
+Ks 0 0 0
+d 0
+map_Kd textures\eyebrow001.png
+map_D textures\eyebrow001.png
+
+newmtl bodyMaterial
+Kd 1 1 1
+Ks 0 0 0
+d 0
+map_Kd textures\eyelashes03.png
+map_D textures\eyelashes03.png
+
+newmtl teethMaterial
+Kd 0.64 0.64 0.64
+Ks 0.8549 0.8549 0.8549
+d 0
+map_Kd textures\teeth.png
+map_D textures\teeth.png
+
+newmtl tongue01Material
+Kd 1 1 1
+Ks 0.03137 0.03137 0.03137
+d 0
+map_Kd textures\tongue01_diffuse.png
+map_D textures\tongue01_diffuse.png
+
+newmtl shirt01
+Kd 1 1 1
+Ks 0.03137 0.03137 0.03137
+d 0
+map_Kd textures\shirt_texture.png
+map_D textures\shirt_texture.png
+
+newmtl jacket01
+Kd 1 1 1
+Ks 0.003922 0.02353 0.003922
+d 0
+map_Kd textures\jacket01_diffuse.png
+map_D textures\jacket01_diffuse.png
+
+newmtl jeans01Material
+Kd 1 1 1
+Ks 0.02745 0.02745 0.02745
+d 0
+map_Kd textures\jeans_basic_diffuse.png
+map_D textures\jeans_basic_diffuse.png
