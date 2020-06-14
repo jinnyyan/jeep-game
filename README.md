@@ -4,7 +4,7 @@
   </h1>
 </p>
 <p align="center">
-  :vertical_traffic_light: :car: <em>using pyOpenGL to build a basic car-driving game to avoid obstacles and profit</em> :collision: :construction:
+  :vertical_traffic_light: :car: <em>the game that drives you crazy</em> :collision: :construction:
 </p>
 
 ---
