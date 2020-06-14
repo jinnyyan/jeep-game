@@ -20,7 +20,7 @@ class diamond:
     rotation = 0.0
     
     def __init__(self, x, z):
-        self.obj = ImportObject.ImportedObject("diamondR")#replace when textures work
+        self.obj = ImportObject.ImportedObject("../objects/diamondR")#replace when textures work
         self.posX = x
         self.posZ = z
         

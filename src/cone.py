@@ -20,7 +20,7 @@ class cone:
     rotation = 0.0
     
     def __init__(self, x, z):
-        self.obj = ImportObject.ImportedObject("cone")
+        self.obj = ImportObject.ImportedObject("../objects/cone")
         self.posX = x
         self.posZ = z
         

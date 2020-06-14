@@ -1,10 +1,11 @@
+#!/usr/bin/env python
 from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
 import math, time, random, csv, datetime
 import ImportObject
 import PIL.Image as Image
-import jeep, cone, diamond, star, person
+import jeep, cone, diamond, star
 
 windowSize = 600
 helpWindow = False
@@ -542,13 +543,13 @@ def loadTexture(imageName):
     try:
         imgX = texturedImage.size[0]
         imgY = texturedImage.size[1]
-        img = texturedImage.tostring("raw","RGBX",0,-1)#tobytes("raw", "RGBX", 0, -1)
+        img = texturedImage.tobytes("raw","RGBX",0,-1)#tostring("raw", "RGBX", 0, -1)
     except Exception, e:
         print "Error:", e
         print "Switching to RGBA mode."
         imgX = texturedImage.size[0]
         imgY = texturedImage.size[1]
-        img = texturedImage.tostring("raw","RGBA",0,-1)#tobytes("raw", "RGBA", 0, -1)
+        img = texturedImage.tobytes("raw","RGB",0,-1)#tostring("raw", "RGBA", 0, -1)
 
     tempID = glGenTextures(1)
     glBindTexture(GL_TEXTURE_2D, tempID)
@@ -562,7 +563,7 @@ def loadTexture(imageName):
 
 def loadSceneTextures():
     global roadTextureID
-    roadTextureID = loadTexture("road2.png")
+    roadTextureID = loadTexture("../img/road2.png")
     
 #-----------------------------------------------lighting work--------------
 def initializeLight():

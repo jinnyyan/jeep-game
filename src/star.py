@@ -20,7 +20,7 @@ class star:
     rotation = 0.0
     
     def __init__(self, x, z):
-        self.obj = ImportObject.ImportedObject("starR")#replace when textures work
+        self.obj = ImportObject.ImportedObject("../objects/starR")#replace when textures work
         self.posX = x
         self.posZ = z
         
